@@ -6,7 +6,7 @@ Fortunately, you can use ReactiveUI as an MVVM framework for Windows Forms.
 As a side effect, you will be introduced to RX.  
   
   
-# About ReactiveUI  
+# About ReactiveUI - WinForms  
 In ReactiveUI 7.0, the syntax of the command changed and a sample source up to version 6 occupying the majority of the net was pasted, but caused a compile error.  
 This sample confirmed the operation with 7.0.0 as the oldest version and 7.4.0 as the latest version.  
 We do not need to explain how to introduce ReactiveUI, so search nuget package manager for "ReactiveUI - WinForms".  
