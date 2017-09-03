@@ -1,4 +1,4 @@
-#Introduction  
+# Introduction  
 To the friends still developing on Windows Forms.  
 Have you ever wanted to introduce test-driven development (TDD), or more primitively to bring order to the source code with the concept of PDS (presentation domain separation)?  
 I thought so, but the framework that was useful in WPF and Xamarin could not be used on Windows Forms.  
@@ -6,12 +6,12 @@ Fortunately, you can use ReactiveUI as an MVVM framework for Windows Forms.
 As a side effect, you will be introduced to RX.  
   
   
-#About ReactiveUI  
+# About ReactiveUI  
 In ReactiveUI 7.0, the syntax of the command changed and a sample source up to version 6 occupying the majority of the net was pasted, but caused a compile error.  
 This sample confirmed the operation with 7.0.0 as the oldest version and 7.4.0 as the latest version.  
 We do not need to explain how to introduce ReactiveUI, so search nuget package manager for "ReactiveUI - WinForms".  
   
-#Code description  
+# Code description  
 I have one form under the Views folder and one source of ViewModel under the ViewModels folder.  
 Please look at Views / SimpleBasic.cs  
   
